@@ -31,7 +31,7 @@ Or, you can use the Makefile to compile and run the application.
 ```
 mingw32-make
 ```
-## Before you start, make sure to create two folders named "reports" and "users" in the same directory as the application. The reports will be saved in the "reports" folder and the user data will be saved in the "users" folder.
+### Before you start, make sure to create two folders named "reports" and "users" in the same directory as the application. The reports will be saved in the "reports" folder and the user data will be saved in the "users" folder.
 
 ## How to use
 
