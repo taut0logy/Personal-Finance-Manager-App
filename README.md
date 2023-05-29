@@ -14,6 +14,8 @@ This is a console application written in C++. Its main function is to manage you
 
 ## How to install
 
+A pre built executable file is provided, which is a windows executable file. If you want to compile the application yourself, follow the steps below.
+
 ### 1. Clone the repository
 ```
 git clone
@@ -27,11 +29,11 @@ g++ -o main main.cpp
 ./main
 ```
  
-Or, you can use the Makefile to compile and run the application.
+Or,If you have GNU GCC compiler installed through minGW, you can use the Makefile to compile and run the application. To do so, navigate to the directory where the Makefile is located and run the following command:
 ```
 mingw32-make
 ```
-### Before you start, make sure to create two folders named "reports" and "users" in the same directory as the application. The reports will be saved in the "reports" folder and the user data will be saved in the "users" folder.
+## Before you start, make sure to create two folders named "reports" and "users" in the same directory as the application. The reports will be saved in the "reports" folder and the user data will be saved in the "users" folder.
 
 ## How to use
 
