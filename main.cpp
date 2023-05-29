@@ -924,7 +924,7 @@ void generateSummaryReport(User *&user)
             std::cout << e.what() << std::endl;
         }
     }
-    std::cout << "Press enter to continue..." << std::endl;
+    //std::cout << "Press enter to continue..." << std::endl;
     std::cin.ignore();
 }
 
@@ -949,7 +949,7 @@ void generateCategoryReport(User *&user)
             std::cout << e.what() << std::endl;
         }
     }
-    std::cout << "Press enter to continue...";
+    //std::cout << "Press enter to continue...";
     std::cin.ignore();
 }
 
